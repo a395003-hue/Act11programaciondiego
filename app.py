@@ -3,7 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 st.title("Gráfica de una función lineal")
-
+st.sidebar("Diego Jesus Ramirez Rodriguez)
+           
 st.write("Modifica los valores de m y b para observar cómo cambia la gráfica.")
 
 m = st.number_input("Valor de m:", value=2.0)
